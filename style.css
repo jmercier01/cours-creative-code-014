@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Syne:wght@400;500;600;700;800&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:#000000;color:#F9FEEB;}
+div{width:100%;}
+p{font-family: 'Merriweather', serif; padding-left:4em;font-size:3vw;line-height:5vw; margin-bottom:100vh;
+max-width : 800px;
+}
+#two,#three,#four,#five{
+  opacity:1;  
+  transform: scale(1);
+}
