@@ -10,7 +10,8 @@
 
 <body>
   <div>
-    <p id="one">Sur le reflet brillant d'une planète inexplorée...<br><small><small><small>Scroll pour continuer</small></small></small></p>
+    <p id="one">Sur le reflet brillant d'une planète inexplorée...<br><small><small><small>Scroll pour
+            continuer</small></small></small></p>
 
     <p id="two">...le vaisseau brillait comme une pierre précieuse contre le cosmos.</p>
     <p id="three">C'était l'Aeon Glider, un prodige d'ingénierie interstellaire</p>
@@ -18,9 +19,19 @@
     <p id="five">qu'à une création de métal et de lumière. </p>
 
   </div>
+  <script>
+    const lenis = new Lenis()
+    function raf(time) {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
+    requestAnimationFrame(raf)
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
