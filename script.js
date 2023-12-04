@@ -1,9 +1,3 @@
-const lenis = new Lenis()
-function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-}
-requestAnimationFrame(raf)
 
 gsap.from("#two", {
   scrollTrigger: {
@@ -18,3 +12,4 @@ gsap.from("#two", {
   opacity: 0,
   duration:.5 // marche que si scrub est a false
 });
+
